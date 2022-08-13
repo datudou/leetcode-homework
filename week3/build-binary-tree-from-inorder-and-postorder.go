@@ -31,3 +31,4 @@ func build(inorder []int, inStart, inEnd int, postorder []int, postStart,postEnd
     root.Right = build(inorder,index+1,inEnd,postorder, postStart+leftSize, postEnd - 1)
     return root
 
+}
